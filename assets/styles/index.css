@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Old Celtiberians';
+    src: url('../fonts/Old\ Celtiberians.otf');
+}
+
+body{
+    margin: 0px;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    background-color: black;
+    color: blanchedalmond;
+    font-family: "Old Celtiberians";
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+}
+
+#acts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+#acts img{
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+h3{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+table{
+    max-width: 1200px;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+    overflow: hidden;
+}
+
+table th,td{
+    padding: 0.5rem;
+}
+
+table th{
+    font-size: 1.5rem;
+}
+
+table td{
+    width: 10%;
+    font-weight: bolder;
+}
+
+table img{
+    width: 100%;
+    max-height: 100px;
+
+    object-fit: contain;
+}
