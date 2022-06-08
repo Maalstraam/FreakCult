@@ -1,29 +1,79 @@
 @font-face {
-    font-family: 'Old Celtiberians';
-    src: url('../fonts/Old\ Celtiberians.otf');
+    font-family: "Cybrpnuk2";
+    src: url("../fonts/Cybrpnuk2.ttf");
 }
 
 body{
     margin: 0px;
     width: 100%;
+    font-family: "Cybrpnuk2";
 }
 
 nav{
     position: fixed;
     background-color: black;
     color: blanchedalmond;
-    font-family: "Old Celtiberians";
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     z-index: 1;
     top: 0px;
+    align-items: center;
+}
+
+nav img{
+    height: 7rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+div form{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+form div{
+    display: flex;
+    justify-content: space-between;
+}
+
+label, input, button{
+    margin-top: 0.5rem;
+}
+
+label{
+    font-size: large;
+}
+
+input{
+    border-radius: 12px;
+}
+
+button{
+    width: 100%;
+    font-family: inherit;
+    background-color: darkorange;
+    color: black;
+    border-radius: 12px;
 }
 
 #acts{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 5rem;
+    margin-top: 7rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+#acts div{
+    margin: 0.5rem;
 }
 
 #acts img{
@@ -36,11 +86,13 @@ h3{
     background-color: black;
     color: blanchedalmond;
     text-align: center;
+    margin: auto;
 }
 
 table{
     max-width: 1200px;
     margin: auto;
+    margin-top: 2rem;
     border-collapse: collapse;
     text-align: center;
     overflow: hidden;
@@ -65,3 +117,45 @@ table img{
 
     object-fit: contain;
 }
+
+table th{
+    font-size: 1.5rem;
+    background-color: darkorange;
+    color: white;
+}
+
+table tr:nth-child(n+1){
+    background-color: blanchedalmond;
+    color: darkred;
+}
+
+table tr:nth-child(2n) td{
+    background-color: darkred;
+    color: blanchedalmond;
+}
+
+table a{
+    font-size: xx-large;
+    padding: 0.2rem;   
+    color: inherit;
+}
+
+.articulos {
+    margin: 2rem 10rem 10rem;
+}
+
+.articulos h2{
+    color: darkorange;
+}
+
+.articulos p{
+    color: darkblue;
+}
+
+figure{
+    float: right;
+}
+figure img{
+    max-width: 200px;
+}
+
